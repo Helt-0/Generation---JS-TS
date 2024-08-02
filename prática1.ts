@@ -12,7 +12,7 @@ let veiculo1: IVeiculos = {
 
     tipo: "Avião",
     marca: "Boing",
-    ano: 2004
+    ano: 2024
 };
 
 let veiculo2: IVeiculos = {
@@ -22,18 +22,11 @@ let veiculo2: IVeiculos = {
     ano: 2024
 };
 
-console.log(" ");
-console.log("Veículo 1: ");
-console.log(`O veículo 1 é um ${veiculo1.tipo}`);
-console.log(`A marca do veículo é ${veiculo1.marca}`);
-console.log(`O ano do veículo é ${veiculo1.ano}`);
-console.log(" ");
+
+console.log(`\nVeículo 1: \nO primeiro veículo é um ${veiculo1.tipo} \nA marca do veículo é ${veiculo1.marca}` + 
+    `\nO ano do veículo é ${veiculo1.ano}\n`)
 
 console.log("=====================================================================================================");
 
-console.log(" ");
-console.log("Veículo 2: ")
-console.log(`O veículo 2 é um ${veiculo2.tipo}`);
-console.log(`A marca do veículo é ${veiculo2.marca}`);
-console.log(`O ano do veículo é ${veiculo2.ano}`);
-console.log(" ");
+console.log(`\nVeículo 2: \nO segundo veículo é um ${veiculo2.tipo} \nA marca do veículo é ${veiculo2.marca}` + 
+    `\nO ano do veículo é ${veiculo2.ano}\n`)
